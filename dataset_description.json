@@ -1,0 +1,49 @@
+{
+  "Name": "s500-generic-44: Crossmodal face-name person-identity frequency tagging, SEEG of the left ventral temporal cortex (Volfart et al., 2020) (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Angélique Volfart",
+    "Jacques Jonas",
+    "Louis Maillard",
+    "Sophie Colnat-Coulbois",
+    "Bruno Rossion"
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (University Hospital of Nancy; participants gave written informed consent), see the article DOI 10.1371/journal.pbio.3000659"
+  ],
+  "HowToAcknowledge": "Cite Volfart A, Jonas J, Maillard L, Colnat-Coulbois S, Rossion B (2020) Neurophysiological evidence for crossmodal (face-name) person-identity representation in the human left ventral temporal cortex. PLoS Biology 18(4):e3000659, doi:10.1371/journal.pbio.3000659; and the Dryad dataset doi:10.5061/dryad.m8t391m.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1371/journal.pbio.3000659",
+    "https://doi.org/10.5061/dryad.m8t391m",
+    "http://www.nocions.org/letswave/"
+  ],
+  "Keywords": [
+    "face perception",
+    "person identity",
+    "names",
+    "crossmodal",
+    "SEEG",
+    "intracerebral recordings",
+    "frequency tagging",
+    "ventral temporal cortex"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.m8t391m",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.m8t391m",
+      "Version": "Dryad version 2 (published 2020-02-28)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' preprocessing in Letswave 5",
+      "Description": "Import of Micromed TRC in Letswave 5, low-pass 30 Hz (Butterworth order 4), each sequence cut from 2 s after onset to ~61 s (30471 bins, integer number of 0.571 Hz cycles), sequences of one condition merged into one file (README)."
+    },
+    {
+      "Name": "o5c_C_convert_nancy.py",
+      "Description": "Repackaging: Letswave float32 sequences back-to-back in BrainVision (values unchanged); Letswave events to events.tsv; coordinates from the release xlsx to electrodes.tsv. Code in code/."
+    }
+  ]
+}

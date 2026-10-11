@@ -1,0 +1,24 @@
+{
+  "TaskName": "nameonly",
+  "TaskDescription": "Unimodal control: written names only at 4 Hz with an identity change every 7th item (0.571 Hz) (article).",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "Letswave": {
+      "Description": "Low-pass 30 Hz, Butterworth order 4 (README); Letswave history of this file: LW_importTRC, LW_crop, LW_butter_lowpass, LW_merge_epochs"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated per participant in the release)",
+  "Manufacturer": "Micromed",
+  "RecordingType": "epoched",
+  "EpochLength": 59.513671875,
+  "RecordingDuration": 119.02734375,
+  "SEEGChannelCount": 195,
+  "EEGChannelCount": 0,
+  "ECGChannelCount": 1,
+  "MiscChannelCount": 3,
+  "TriggerChannelCount": 4,
+  "ECOGChannelCount": 0,
+  "ElectricalStimulation": false
+}
