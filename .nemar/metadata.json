@@ -1,0 +1,88 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Angélique Volfart": {
+      "orcid": "0000-0002-1720-8284"
+    },
+    "Jacques Jonas": {},
+    "Louis Maillard": {},
+    "Sophie Colnat-Coulbois": {},
+    "Bruno Rossion": {
+      "orcid": "0000-0002-1845-3935"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.m8t391m",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1371/journal.pbio.3000659",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000475",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000475",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "s500-generic-44: Crossmodal face-name person-identity frequency tagging, SEEG of the left ventral temporal cortex (Volfart et al., 2020) (derivative)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "1.24 GB (100 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".lw5",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".xlsx"
+  ],
+  "description": "Stereo-EEG (SEEG) recordings from the left ventral temporal cortex of patients with refractory epilepsy, collected during a crossmodal frequency-tagging paradigm. Faces and written names of a famous identity were presented at 4 Hz, with a different identity inserted every 7th item (0.571 Hz). Face-only and name-only control conditions were also run. The data are a derivative of the authors' low-pass filtered, epoched Letswave files, repackaged in BIDS (BrainVision format) for the three participants with non-empty data.",
+  "methods_description": "SEEG was recorded with Micromed systems in patients at the University Hospital of Nancy during fast periodic visual stimulation (4 Hz, identity change every 7th item). The authors' Letswave 5 preprocessing applied a 30 Hz low-pass Butterworth filter (order 4) and cut each sequence from 2 s after onset to about 61 s. Sequences of the same condition were merged into one file, then converted to BrainVision with events and Talairach electrode coordinates.",
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "person identity"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "ventral temporal cortex"
+    },
+    {
+      "term": "crossmodal"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "537c25eea478073692ecc8e3978bfdad3020f4499e71c1efa7e49343572cf78d"
+}
