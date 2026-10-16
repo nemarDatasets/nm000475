@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "s500-generic-44: Crossmodal face-name person-identity frequency tagging, SEEG of the left ventral temporal cortex (Volfart et al., 2020) (derivative)",
-  "description": "Stereo-EEG (SEEG) recordings from the left ventral temporal cortex of patients with refractory epilepsy during a crossmodal frequency-tagging paradigm. Faces and written names of a famous identity were presented at 4 Hz, with a different identity inserted every 7th item (0.571 Hz). Face-only and name-only control conditions were also recorded. This derivative contains the authors' 30 Hz low-pass filtered, sequence-cut Letswave data for the 3 participants with non-empty files (Experiment 2 of the source article).",
-  "methods_description": "SEEG was recorded with Micromed systems from 7 patients with refractory epilepsy at University Hospital of Nancy. Of these, 3 have usable data in the release. Stimuli were faces and written names presented at 4 Hz, with an identity change every 7th item (0.571 Hz). Conditions were FaceName, FaceOnly and NameOnly. Authors' preprocessing in Letswave 5: 30 Hz Butterworth low-pass (order 4), sequences cut from 2 s after onset to about 61 s and merged per condition. Data were repackaged to BrainVision format with Talairach electrode coordinates.",
+  "title": "Volfart-2020-neurophysiological-10.1371/journal.pbio.3000659",
+  "description": "Stereo-EEG (SEEG) recordings from the left ventral temporal cortex of three epilepsy patients (with data) viewing streams of faces and written names of famous identities in a crossmodal fast periodic visual stimulation (frequency-tagging) paradigm. Identities were presented at 4 Hz with an identity change every 7th item (0.571 Hz), alongside face-only and name-only control conditions. This derivative dataset repackages the authors' low-pass filtered, sequence-cut Letswave files into BIDS iEEG format, with electrode coordinates in Talairach space.",
+  "methods_description": "SEEG recorded with Micromed systems at University Hospital of Nancy during frequency-tagging stimulation (faces and/or names at 4 Hz, identity change every 7th item). Authors' preprocessing in Letswave 5 included 30 Hz low-pass Butterworth filtering (order 4) and cutting sequences from 2 s after onset to about 61 s. Sequences per condition were merged and repackaged into BrainVision format.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -86,5 +86,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "bfd044576ef60e58e0d0a515167bd8bcb31d9af779d22c55717b79bee6d5b4e0"
+  "source_hash": "6493c34ca89a7cc6b189e616dc03dea540d3c0e34a70f77415c943ee57887810"
 }
