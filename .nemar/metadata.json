@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "s500-generic-44: Crossmodal face-name person-identity frequency tagging, SEEG of the left ventral temporal cortex (Volfart et al., 2020) (derivative)",
-  "description": "Stereo-EEG (SEEG) recordings from the left ventral temporal cortex of three epilepsy patients (with data) viewing streams of faces and written names of famous identities in a crossmodal fast periodic visual stimulation (frequency-tagging) paradigm. Identities were presented at 4 Hz with an identity change every 7th item (0.571 Hz), alongside face-only and name-only control conditions. This derivative dataset repackages the authors' low-pass filtered, sequence-cut Letswave files into BIDS iEEG format, with electrode coordinates in Talairach space.",
-  "methods_description": "SEEG recorded with Micromed systems at University Hospital of Nancy during frequency-tagging stimulation (faces and/or names at 4 Hz, identity change every 7th item). Authors' preprocessing in Letswave 5 included 30 Hz low-pass Butterworth filtering (order 4) and cutting sequences from 2 s after onset to about 61 s. Sequences per condition were merged and repackaged into BrainVision format.",
+  "description": "Stereo-EEG recordings from the left ventral temporal cortex of three epilepsy patients with usable data, collected during a crossmodal frequency-tagging paradigm. Faces and written names of a famous identity were presented at 4 Hz, with a different identity inserted every 7th item (0.571 Hz). Face-only and name-only control conditions were also included. This is a derivative of the authors' Letswave-processed files: 30 Hz low-pass filtered and cut into sequences, repackaged in BIDS.",
+  "methods_description": "SEEG was recorded from patients with refractory epilepsy at the University Hospital of Nancy during fast periodic visual stimulation of faces and names. The authors imported the Micromed recordings into Letswave 5, applied a 4th-order Butterworth low-pass filter at 30 Hz, and cut sequences from 2 s after onset to about 61 s. Sequences from each condition were merged and then repackaged in BrainVision format with Talairach electrode coordinates.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -37,9 +37,7 @@
       "term": "crossmodal"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "intracerebral recordings"
     }
   ],
   "related_identifiers": [
