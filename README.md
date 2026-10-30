@@ -45,3 +45,10 @@ THIS IS A DERIVATIVE DATASET: the release contains the authors' Letswave files, 
   month and year (day -> 01). The .lw5 headers were rewritten with scipy (savemat, MATLAB v5, compressed); their content is
   otherwise unchanged.
 - Age and sex are not given per participant in the release.
+
+## Sequence length of P06 (fix-20261030, Oct 2026)
+
+The release README describes each sequence as 30471 bins of about 61 s, which holds at 512 Hz (P03, P07: 30471 /
+512 = 59.5 s). P06's Letswave header gives 2048 Hz, so its sequences of 30471 samples last 14.88 s (2 sequences per
+condition, 29.76 s per file; `EpochLength` 14.878 s in its `_ieeg.json`). The header rate is used throughout; the "~61 s"
+of the release README does not apply to P06. The dataset_description `GeneratedBy` text was corrected accordingly.
