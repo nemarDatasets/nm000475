@@ -1,3 +1,6 @@
+Unreleased (branch fix-20261030, Oct 2026)
+  - dataset_description GeneratedBy and README: the 30471-bin sequences last ~59.5 s at 512 Hz (P03, P07) but 14.88 s for P06 (header 2048 Hz).
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
