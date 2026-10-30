@@ -39,7 +39,7 @@
   "GeneratedBy": [
     {
       "Name": "Authors' preprocessing in Letswave 5",
-      "Description": "Import of Micromed TRC in Letswave 5, low-pass 30 Hz (Butterworth order 4), each sequence cut from 2 s after onset to ~61 s (30471 bins, integer number of 0.571 Hz cycles), sequences of one condition merged into one file (README)."
+      "Description": "Import of Micromed TRC in Letswave 5, low-pass 30 Hz (Butterworth order 4), each sequence cut from 2 s after onset into 30471 bins (an integer number of 0.571 Hz cycles: ~59.5 s at 512 Hz, as the release README says, but 14.88 s for P06, whose Letswave header gives 2048 Hz), sequences of one condition merged into one file (README)."
     },
     {
       "Name": "o5c_C_convert_nancy.py",
@@ -47,5 +47,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000475",
-  "Version": "1.0.2"
+  "Version": "1.0.3"
 }
